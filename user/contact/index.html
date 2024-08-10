@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - RescueChain</title>
+    <style>
+        body {
+            background-image: url('background.jpeg');
+            background-position: center;
+            background-size: cover;
+            color: rgb(55, 1, 99);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .banner {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            top: 0;
+            left: 0;
+            width: 100%;
+            position: fixed;
+            height: auto;
+            background-color: #5f6c8e;
+            color: rgb(252, 252, 252);
+            transition: background-color 0.5s ease, color 0.5s ease;
+            z-index: 1000;
+        }
+
+        .banner:hover {
+            background-color: rgb(28, 32, 82);
+        }
+
+        h3 {
+            font-size: 25px;
+            font-weight: bolder;
+            margin-left: 20px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            position: fixed;
+            width: 55%;
+            right: 3%;
+            padding: 5px 0;
+            z-index: 1000;
+        }
+
+        .navbar li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            color: rgb(220, 220, 220);
+        }
+
+        .content {
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            width: 80%;
+            max-width: 900px;
+            margin: 140px auto 0 auto;
+            text-align: left;
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 36px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(55, 1, 99);
+        }
+
+        .desc {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .contact-section {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        .contact-item {
+            background-color: rgba(55, 1, 99, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid rgb(55, 1, 99);
+        }
+
+        .contact-item h3 {
+            color: rgb(55, 1, 99);
+            margin-top: 0;
+        }
+
+        .contact-item p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .contact-item a {
+            color: rgb(55, 1, 99);
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .contact-item a:hover {
+            color: rgb(28, 32, 82);
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+            transition: color 0.5s ease;
+        }
+
+        li {
+            list-style: none;
+            position: relative;
+        }
+
+        li::after {
+            content: '';
+            position: absolute;
+            background-color: #7e8cf9;
+            height: 3px;
+            width: 0%;
+            bottom: -10px;
+            left: 0;
+            transition: width 1s;
+        }
+
+        li:hover::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <h3>MENU</h3>
+            <div class="navbar">
+                <li><a href='../home/index.html'>HOME</a></li>
+                <li><a href='../announcement/index.html'>ANNOUNCEMENTS</a></li>
+                <li><a href='../about/index.html'>ABOUT</a></li>
+                <li><a href='../contact/index.html'>CONTACT</a></li>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <h1>Contact Us</h1>
+        <p class="desc">We are here to help you. Reach out to us through any of the following channels.</p>
+
+        <div class="contact-section">
+            <div class="contact-item">
+                <h3>Head Office Address</h3>
+                <p>123 RescueChain Avenue,<br>Helping Hands City,<br>India, 56789</p>
+            </div>
+
+            <div class="contact-item">
+                <h3>Email Addresses</h3>
+                <p>General Inquiries: <a href="mailto:info@rescuechain.org">info@rescuechain.org</a></p>
+                <p>Support: <a href="mailto:support@rescuechain.org">support@rescuechain.org</a></p>
+                <p>Volunteer: <a href="mailto:volunteer@rescuechain.org">volunteer@rescuechain.org</a></p>
+            </div>
+
+            <div class="contact-item">
+                <h3>Emergency Contacts</h3>
+                <p>Emergency Helpline: <a href="tel:+1234567890">+1 234 567 890</a></p>
+                <p>Local Coordinator: <a href="tel:+1987654321">+1 987 654 321</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
