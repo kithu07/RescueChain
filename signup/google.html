@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .bubble{
+            background-color: aliceblue;
+            width: 750px;
+            height:850px ;
+           
+        }
+        .input-box input{
+            width:100%;
+            height: 100%;
+            border: none;
+            outline: none;
+            border:2px solid rgba(255,255,255, .2);
+            border-radius:4px;
+            font-size: 20px;
+            padding: 20px 45px 45px;
+            width: 600px;
+            border-bottom:1px solid rgb(60, 118, 205);
+            color: rgb(60, 118, 205);
+            margin-top: 100px;
+        }
+        #user id1{
+            margin-top: 100px;
+            
+        }
+        .red:before{
+  content:" ";
+  display: block;
+
+  height: 2px;
+  width: -10px;
+  position: absolute;
+  top: 50%;
+  left: 1000px;
+  margin-top: 250px;
+  background: rgb(5, 5, 5);
+}
+.red:after{
+  content:" ";
+  height: 2px;
+  width: -10px;
+  background: rgb(5, 5, 5);
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  right: 300px;
+  margin-top: 250px;
+}
+        
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td style="width: 900px;"><img src="sec.jpg" style="top: 300px; margin-left: 200px; height: 900px; width: 900px;"></td>
+   <td><center>
+<div class="bubble">
+<form>
+    <div style="border-bottom:1px solid black;">
+    <h1 style="text-align:center ;color: rgba(112, 115, 115, 0.695);">Sign in with google</h1></div>
+    
+    <div class="input-box">
+        
+        <input type="text" id="User id" placeholder="Username">
+    </div>
+        <div class="input-box">
+        <input type="password" id="Password" placeholder="Password">
+        </div>  <p style="font-size: 20px;">By clicking Agree & Join or Continue, you agree to the RESCUE CHAIN User Agreement, Privacy Policy, and Cookie Policy.</p>
+     <button style="font-size: 35px; padding: 0px 30px; background-color: rgb(60, 118, 205) ; color: white; margin-top: 50px; border-radius: 30px;  ">Agree & Join</button>
+     <h2 class="red">Or</h2>
+     <button style="font-size: 35px; padding: 0px 30px; background-color:white ; border:1px solid white ;color:  rgb(60, 118, 205); margin-top: 10px; border-radius: 30px;  ">Continue with Google</button>
+     <h4>Already on RESCUE CHAIN?<a href="#" style="text-decoration: none; font-size: 20px;">Sign in</a></h4>
+     <a href="firstpage.html" style="text-decoration: none; font-size: 20px;">Home</a>
+</form>
+</div>
+
+</center></td> 
+</tr>
+</table>
+
+    
+</body>
+</html>
