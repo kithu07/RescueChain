@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RescueChain - Volunteer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <h3>MENU</h3>
+            <div class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ANNOUNCEMENTS</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">VOLUNTEER</a></li>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <h1>Volunteer with Us</h1>
+        <p class="desc">We appreciate your willingness to support our relief efforts. Please provide your contact information and let us know how you can help.</p>
+
+        <!-- Volunteer Form -->
+        <form class="volunteer-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <label for="help">How can you help?</label>
+            <select id="help" name="help" multiple>
+                <option value="medical">Provide Medical Assistance</option>
+                <option value="food">Distribute Food and Water</option>
+                <option value="logistics">Assist with Logistics and Distribution</option>
+                <option value="shelter">Help with Shelter Management</option>
+                <option value="fundraising">Organize Fundraising Events</option>
+                <option value="community">Offer Community Support and Counseling</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
