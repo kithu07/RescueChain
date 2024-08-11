@@ -21,6 +21,8 @@ RescueChain is a disaster management and relief platform designed to connect don
   - Submit contact information and preferences.
 
 ### **Camp Interface (Admin Panel)**
+**Transactions Monitoring:**
+  - Track and update transaction details.
 - **Announcements and Alerts:**
   - Post important updates and alerts for the public.
 - **Resource Stock Management:**
@@ -29,23 +31,18 @@ RescueChain is a disaster management and relief platform designed to connect don
 
 ### **Additional Features**
 - **Live Updates:** Real-time data refresh for camp stats and announcements.
-- **User Feedback/Rating:** Option for donors/volunteers to provide feedback.
-- **Social Sharing:** Share donation and volunteering activities on social media.
-- **Leaderboard/Recognition:** Highlight top donors and volunteers.
-- **AI-based Resource Prediction:** Predict future resource needs based on trends.
-- **Mobile App Integration:** Extend the platform’s reach through mobile accessibility.
-- **Multilingual Support:** Provide the interface in multiple languages.
+- **Certificate of Recognition:** Highlight contributions of donors and volunteers.
 
 ## **Tech Stack**
 
 ### **Frontend:**
 - **HTML5, CSS3, JavaScript**
-- **Bootstrap/Tailwind CSS:** For fast, modern styling.
+- **Bootstrap/Tailwind CSS** 
 
 ### **Backend:**
-- **Firebase** 
+- **Firebase**
+- **FastAPI**
+- **Python**
 
 
-### **Payment Integration:**
-- **Stripe/PayPal API:** Secure online transactions.
 
