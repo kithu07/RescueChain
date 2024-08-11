@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Light background color */
+            text-align: center; /* Center-align the text */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #e6f7ff; /* Light blue */
+        }
+
+        tr:nth-child(odd) {
+            background-color: #f9f9f9; /* Off-white */
+        }
+
+        .total-amount-button {
+            display: inline-block;
+            padding: 20px 40px;
+            font-size: 100px; /* Increased font size */
+            font-weight: bold;
+            color: navy; /* Navy blue font color */
+            background-color: white; /* White background */
+            border: 5px solid #007BFF; /* Thicker blue border */
+            border-radius: 10px;
+            cursor: pointer;
+            opacity: 0.9;
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
+            margin-bottom: 20px; /* Add space below the button */
+            line-height: 1.2; /* Adjust line-height for better vertical alignment */
+        }
+
+        .total-amount-button:hover {
+            background-color: #007BFF; /* Blue background on hover */
+            color: white; /* White font color on hover */
+            opacity: 1;
+            transform: scale(1.05); /* Slightly enlarge button on hover */
+        }
+
+        .amount-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-weight: bold;
+            color: white;
+            background-color: #ff4500; /* Orange-red button color */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            opacity: 0.9;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .amount-button:hover {
+            opacity: 1;
+            transform: scale(1.05); /* Slightly enlarge button on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <button class="total-amount-button">TOTAL AMOUNT CREDITED : 100000</button>
+    
+    <table>
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Email Address</th>
+            <th>Amount Deposited</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>A</td>
+            <td>A@gmail.com</td>
+            <td><button class="amount-button">$100</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>B</td>
+            <td>B@gmail.com</td>
+            <td><button class="amount-button">$150</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>C</td>
+            <td>C@gmail.com</td>
+            <td><button class="amount-button">$200</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>D</td>
+            <td>D@gmail.com</td>
+            <td><button class="amount-button">$250</button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>E</td>
+            <td>E@gmail.com</td>
+            <td><button class="amount-button">$300</button></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>F</td>
+            <td>F@gmail.com</td>
+            <td><button class="amount-button">$350</button></td>
+        </tr>
+    </table>
+
+</body>
+</html>
